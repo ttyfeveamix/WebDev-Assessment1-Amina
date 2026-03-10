@@ -1,0 +1,43 @@
+/* This is where we will be cleaning up the codes diaplay. */
+body {
+    /* Here I have changed the fonts and colors for my display. */
+    line-height: 1.6;               
+    color: #333;                   
+    max-width: 800px;               
+    margin: 20px auto;             
+    padding: 20px;        
+}
+/*  This is where we style the header and the footer */
+header, footer, aside {
+    background-color: #e0e0e0;      
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/* Navigation links styling */
+nav a {
+    margin-right: 15px;
+    text-decoration: underline;
+    color: blue;
+}
+
+h1, h2, h3 {
+    margin-top: 0;                  
+}
+ h1{
+    font-size: 40px;
+ }
+
+/*  Lists styling */
+ul, ol {
+    margin-bottom: 20px;           
+}
+
+li {
+    margin-bottom: 5px;            
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+/* That was the end of cleaning up the display. */
