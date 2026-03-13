@@ -1,0 +1,103 @@
+/* Page background */
+body{
+    background:#d0d0d0;
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+/* Pink container in the center */
+.wrapper{
+    width:750px;
+    margin:40px auto;
+    background:#ff77aa; /* pink container */
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Header */
+header{
+    text-align:center;
+    margin-bottom:20px;
+    position:relative;
+}
+
+/* Decorative top image */
+.design{
+    width:100%;
+    height:auto;
+    margin-bottom:10px;
+}
+
+/* Navigation menu */
+nav ul{
+    list-style:none;
+    padding:0;
+}
+
+nav li{
+    display:inline;
+    margin:0 10px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#000080;
+    font-weight:bold;
+}
+
+/* Cart icon floating right */
+.cart{
+    width:35px;
+}
+
+/* Gallery section */
+.gallery{
+    width:100%;
+}
+
+/* Photo wrapper */
+.photo{
+    margin-bottom:30px;
+}
+
+/* White box only around image */
+.image-box{
+    background:#ffffff;
+    padding:10px;
+    border-radius:12px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+/* Hover effect for image box */
+.image-box:hover{
+    transform: translateY(-3px);
+}
+
+/* Image itself */
+.image-box img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:8px;
+}
+
+/* Text below image */
+.photo p{
+    color:#000000;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+/* Add to basket text */
+.basket{
+    color:#000;
+    font-size:14px;
+}
+
+/* Footer */
+footer{
+    margin-top:20px;
+    text-align:center;
+}

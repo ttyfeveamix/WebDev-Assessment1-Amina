@@ -1,0 +1,114 @@
+/* Here i will style the entire html */
+/* This will set the background of the webpage to white*/
+body {
+    background: white;
+    margin: 0;
+    font-family: Georgia, serif; 
+}
+/* Now we make a wrapper that will contain the content and keep it in the middle of the page */
+.wrapper {
+    width: 900px;                   
+    margin: 25px auto;
+    background: hsl(0, 0%, 89%);
+    padding: 20px 0 0 0;      
+}      
+/* This header will keep the text in the center and add appropriate spacing */
+header {
+    text-align: center;    
+    margin-bottom: 12px;    
+    padding: 0 25px;   
+}
+
+/* I style this main font and keep appropriate margin distance*/
+h1 {
+    font-size: 65px;   
+    margin-bottom: 6px;
+    margin-top: 5px;
+}
+/* Here i appropriatly style the navigation box positioning it perfectly*/
+nav {
+    text-align: center;
+    padding: 10px 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* Here i style the next for the navigation */
+nav a {
+    color: #0044cc;
+    font-size: 18px;
+    margin: 0 30px;  
+}
+/* Here i style the first introduction row*/
+.intro {
+    margin-bottom: 28px;
+    overflow: hidden;
+    padding: 0 25px;
+}
+/* Here i style the container for the image to fit appropriate dimensions */
+.side-image {
+    float: right;          
+    margin-left: 24px;
+    margin-bottom: 5px;
+}
+/* Here i style the image with appropriate sizes */
+.side-image img {
+    width: 400px;
+    height: auto;
+    display: block;     
+    box-shadow: 0 1px 8px rgba(0,0,0,0.3);   
+}
+/* Here i style the paragraph text to be black and fit the dimensions*/
+.text p {
+    font-size: 17px;
+    margin-bottom: -5px;
+    line-height: 1.5;
+    color: #000000;  
+    margin-top: 5px;
+}
+/* This section will divide gallery and introduction seperately*/
+.divider {
+    margin: 12px 25px 6px 25px;
+    clear: both;   
+}
+/* This will make the rows for the gallery and keep as a container*/
+.row {
+    display: flex;   
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    line-height: 0;
+    font-size: 0;
+    object-fit: cover;  
+}
+/* Here i style the row for images*/
+.row video,
+.row img {
+    background: #e8e8e8;
+    display: block;   
+    margin: 0;
+    padding: 0;
+    border: none;  
+}
+/* Here i style the video container */
+.video-large {
+    width: 110%;
+    height: 260px;  
+    object-fit: cover;
+}
+/* Styling for the large image container */
+.image-large {
+    width: 70%;
+    height: 260px;
+    object-fit: fill; 
+}
+/* Smaller image contianer*/
+.image-mini {
+    width: 35%;
+    height: 260px;
+    object-fit: cover; 
+}
+/* The styling for the bigger image*/
+.image-mega {
+    width: 65%;
+    height: 260px; 
+}

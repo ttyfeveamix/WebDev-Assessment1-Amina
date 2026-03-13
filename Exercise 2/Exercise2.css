@@ -1,0 +1,78 @@
+/* here i make a gray background that will be used for the main content area */
+body {
+    background-color: #bfbfbf;
+    margin: 0;                   
+    font-family: 'Inter', sans-serif; 
+}
+/*  Now we make a wrapper that will contain the content and keep it in the middle of the page */
+.wrapper {
+    width: 750px;
+    margin: 40px auto;
+    background-color: #e9e9e9;
+    padding: 60px 70px;   
+    border-radius: 25px;  
+}
+
+/* Here i made a highlighted box that is sepereate from the rest of the page and has a different background colour and padding */
+.highlight-box{
+    background-color: #459914;
+
+    color: white;
+    padding: 35px;
+    border-radius: 29px; 
+    margin: 40px 0;
+}
+/* I made a custom font just for the highlighted text */
+.highlight-box h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white;
+}
+/* This is the font for the text that will be in the paragraph of the box*/
+.highlight-box p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0;
+}
+/* Here i made a section that will maintain the distance and alignment */
+.section-title {
+    font-size: 55px;
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+/* Here i chose a font that is appropriate with the screenshot */
+h1, h2 {
+    font-family: 'Anton', sans-serif;
+    color: #3f8f12;
+    margin: 0;     
+}
+/* Here i made a large heading style that is centre aligned and keeps distance from the bottom*/
+h1 {
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 20px;    
+}
+/* A heading style that is used for the highlighted text */
+h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    color: white;
+    margin: 0 0 15px 0;  
+    letter-spacing: 2px;   
+    line-height: 1.1;
+}
+/* Here i made a smaller heading style for the paragraph */
+h4 {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+/* Here i made a paragraph style with a dark gray color */
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #111;
+}
