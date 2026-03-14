@@ -1,11 +1,11 @@
-/* Page background */
+/* this is the page background */
 body{
     background:#d0d0d0;
     margin:0;
     font-family: Arial, sans-serif;
 }
 
-/* Pink container in the center */
+/* Here we will put the pink container */
 .wrapper{
     width:750px;
     margin:40px auto;
