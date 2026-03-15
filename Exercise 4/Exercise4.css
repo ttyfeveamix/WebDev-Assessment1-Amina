@@ -83,11 +83,13 @@ nav a{
     border-radius:8px;
 }
 
-/* Text below image */
-.photo p{
-    color:#000000;
+/* Here i add styling for the add to text basket button*/
+.basket{
+    color: #2b8cab;
+    background: rgb(#f2eddc);
+    padding: 8px 15px;
+    border: 2px solid black;
     font-weight:bold;
-    margin:10px 0;
 }
 
 /* Add to basket text */
